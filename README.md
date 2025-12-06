@@ -72,19 +72,6 @@ java SistemaHotel
 
 ---
 
-# 🔥 Quer deixar o README mais avançado ainda?
-
-Posso adicionar:
-
-✅ Badges (Java, GitHub, Status do Projeto)  
-✅ GIF do terminal funcionando  
-✅ Imagens  
-✅ Instruções de contribuição  
-✅ Licença MIT  
-✅ Histórico de versões (changelog)
-
-É só falar: **“Quero o README PRO”** 🚀
-
 👤 Autor
 Ruan Fontes
 Desenvolvedor Backend • Java | Spring | APIs REST
