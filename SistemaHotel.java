@@ -105,9 +105,20 @@ public class SistemaHotel {
 
                     System.out.println("Hotel atualizado com sucesso!");
                     break;
-                    
+
                 case 5:
-                    break;
+                    System.out.print("Digite o ID do hotel que deseja remover: ");
+                    int idRemover = scanner.nextInt();
+                    scanner.nextLine();
+                    
+                    Hotel hotelParaRemover = null;
+
+                    for (Hotel h : hoteis) {
+                        if (h.getID() == idRemover) {
+                            hotelParaRemover = h;
+                            break;
+                        }
+                    }
                 case 6:
                     System.out.println("Saindo do Sistema...");
                     break;
