@@ -77,7 +77,35 @@ public class SistemaHotel {
                     break;
 
                 case 4:
+                    System.out.print("Digite o ID do hotel que deseja atualizar: ");
+                    int idAtualizar = scanner.nextInt();
+                    scanner.nextLine();
+
+                    Hotel hotelEncontrado = null;
+                    for (Hotel h : hoteis) {
+                        if (h.getID() == idAtualizar) {
+                            hotelEncontrado = h;
+                            break;
+                        }
+                    }
+
+                    if (hotelEncontrado == null) {
+                        System.out.println("Hotel com ID" + idAtualizar + " não encontrado!");
+                        break; // sai do case 4
+                    }
+
+                    System.out.print("Novo nome: ");
+                    String novoNome = scanner.nextLine();
+
+                    System.out.print("Nova cidade: ");
+                    String novaCidade = scanner.nextLine();
+
+                    hotelEncontrado.setNome(novoNome);
+                    hotelEncontrado.setCidade(novaCidade);
+
+                    System.out.println("Hotel atualizado com sucesso!");
                     break;
+                    
                 case 5:
                     break;
                 case 6:
