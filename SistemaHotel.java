@@ -8,14 +8,20 @@ public class SistemaHotel {
         int opcao = 0;
 
         while (opcao != 6) {
-            System.out.println("\n---- SISTEMA DE HOTEL ----");
+            System.out.println("\n===================================");
+            System.out.println("\n         SISTEMA DE HOTEL");
+            System.out.println("\n===================================");
             System.out.println(" 1 - Cadastrar Hotel");
             System.out.println(" 2 - Listar Hotéis");
             System.out.println(" 3 - Buscar Hotel por ID");
             System.out.println(" 4 - Atualizar Hotel");
             System.out.println(" 5 - Remover Hotel");
             System.out.println(" 6 - Sair");
+            System.out.println("=======================================");
             System.out.print("Digite uma opção: "); 
+
+            System.out.print("\nPressione ENTER para continuar...");
+            scanner.nextLine();
 
             opcao = scanner.nextInt();
             scanner.nextLine();
