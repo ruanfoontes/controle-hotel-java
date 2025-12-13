@@ -33,7 +33,7 @@ public class SistemaHotel {
                     scanner.nextLine();
 
                     System.out.print("Digite o nome do hotel: ");
-                    String nome = scanner.nextLine();
+                    String nome = scanner.nextline();
 
                     System.out.print("Digite a cidade do hotel: ");
                     String cidade = scanner.nextLine();
